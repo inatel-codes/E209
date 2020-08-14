@@ -1,0 +1,31 @@
+Registro DIR
+
+"0" -> Pino de entrada
+"1" -> Pino de saida
+
+PXDIR
+P1DIR = P1DIR | (BIT0+BIT6)
+P1DIR |= (BIT0+BIT6)
+
+*******************************************************************************
+
+REN + OUT (Configurando resistor interno)
+
+REN: habilita o resistor inteiro 
+OUT: Indica se o resistor é de Pull-Up ou Pull-Down -> "1" Pull-Up e "0" Pull-Down
+
+1º: P1REN |= BIT3
+2º: P1OUT |= BIT3
+    P1OUT &=~BIT3
+
+*******************************************************************************
+
+PxDIR - "1" saida / "0" entrada
+PxOUT - Logica OU = "1" / Logica não-E = "0"
+PxIN - Logica E = Lê a entrada
+PxREN - "1" Habilita resistor 
+	Em sequencia PxOUT "1" - resistor Pull-Up
+		           "0" - resistor Pull-Down
+
+
+

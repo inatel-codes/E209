@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\Aula_03\aula_03.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\exercicio_proposto\proposto.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\questao_02.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
